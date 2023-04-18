@@ -10,7 +10,7 @@ def welcome() :
 
 @app.route("/temp")
 def temp() : 
-    return"temp is 20 deg"
+    return "temp is 20 deg"
 
 @app.route("/humidity")
 def humidity() : 
