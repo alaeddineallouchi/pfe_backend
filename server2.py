@@ -14,7 +14,7 @@ def temp() :
 
 @app.route("/humidity")
 def humidity() : 
-    return"yes or no "
+    return "yes or no "
 
 @app.route("/smoke")
 def smoke() : 
