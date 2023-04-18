@@ -22,7 +22,8 @@ def smoke() :
 
 @app.route("/movement")
 def movement() : 
-    return"yes or no "
+    return "yes or no "
+
 
 if (__name__=="__main__") : 
     app.run(host="0.0.0.0")
