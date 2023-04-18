@@ -9,8 +9,20 @@ def welcome() :
 
 
 @app.route("/temp")
-def welcome() : 
+def temp() : 
     return"temp is 20 deg"
 
+@app.route("/humidity")
+def humidity() : 
+    return"yes or no "
+
+@app.route("/smoke")
+def smoke() : 
+    return"no smoke "
+
+@app.route("/movement")
+def movement() : 
+    return"yes or no "
+
 if (__name__=="__main__") : 
-    app.run()
+    app.run(host="0.0.0.0")
